@@ -25,7 +25,7 @@ Once Clockwork is installed, you need to register Laravel service provider, in y
 ```php
 'providers' => array(
 	...
-	'Clockwork\Support\Laravel\ClockworkServiceProvider'
+	Clockwork\Support\Laravel\ClockworkServiceProvider::class,
 )
 ```
 
